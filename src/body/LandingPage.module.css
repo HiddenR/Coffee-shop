@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+.landingPageHandler{
+    display: flex;
+    /*this centers the text horizontally*/
+    justify-content: center;
+    /*this centers the text vertically*/
+    align-items: center;
+    height: 800px;
+    font-family: 'Charm', cursive;
+}
+.landingPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*this centers the text vertically*/
+    align-items: center;
+    padding-top: 100px;
+    height: 715px;
+}
+.successfullPerson{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    font-size: 60px;
+    color: white;
+}
+.contentText{
+    display: flex;
+    color: #fff;
+    font-size: 3.2rem;
+    width: 80%;
+}
+
+span > #itemDescript{
+    font-family: 'Charm', cursive;
+}

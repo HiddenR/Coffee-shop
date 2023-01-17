@@ -1,0 +1,77 @@
+
+.menuListBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.itemButton{
+    display: flex;
+    gap: 55px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 20%;
+    margin: 58px;
+}
+.itemWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    position: relative;
+    top: 27px;
+    right: 262px;
+    width: 56%;
+    height: auto;
+    background-color: #2c2e2f79;
+    border-radius: 30px;
+}
+
+#itemTitle{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;        
+}
+#title ,
+#price{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    width: 150px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px 30px 30px 39px;
+}
+.Card > img{
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+.Card>img:hover {
+    transform: scale(1.2);
+}
+.addItem{
+    background-color: #ff8100;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+.addItem:hover{
+    background-color: rgba(230, 220, 220, 0.329);
+    color: white;
+}
+
+.WrapImage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

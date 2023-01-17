@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+.menuBody{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    font-size: 60px;
+    color: white;
+    font-family: 'Charm', cursive;
+}
+
+.background{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 806px;
+    width: 100%;
+    opacity: .8;
+
+}
+.menuWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.menuImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: relative;
+    gap: 50px;
+    padding-right: 98px;
+}
+
+#imageID {
+    height: 338px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#imageReflection {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px 10px 20px 20px ;
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+.reflection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 50px;
+    padding-right: 98px;
+}
+
+#spanDiv {
+    padding-top: 100px;
+    width: 70%;
+    gap: 50px;
+}
+
+#spanId {
+    position: relative;
+    left: 250px;
+}

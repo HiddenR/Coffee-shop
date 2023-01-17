@@ -1,0 +1,20 @@
+.aboutWrapper{
+    padding: 100px;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+#spanId{
+    font-size: 30px;
+    color: white;
+}
+#socialID{
+    font-size: 30px;
+    color: white;
+}
+#Link{
+    color: wheat;
+}

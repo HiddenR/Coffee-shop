@@ -1,0 +1,10 @@
+.CartBodyWrapper{
+    display: flex;
+    justify-content: center;
+}
+.cartBody{
+    background-color: wheat;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+}
