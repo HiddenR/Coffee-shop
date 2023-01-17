@@ -54,21 +54,6 @@
 .Card>img:hover {
     transform: scale(1.2);
 }
-.addItem{
-    background-color: #ff8100;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: center;
-    padding: 3px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: ease-in-out .5s;
-}
-.addItem:hover{
-    background-color: rgba(230, 220, 220, 0.329);
-    color: white;
-}
 
 .WrapImage {
     display: flex;

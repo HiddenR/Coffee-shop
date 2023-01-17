@@ -1,7 +1,7 @@
 import React from "react";
 import Classes from "../menuList.module.css";
 import Card from "../../UI/Card";
-
+import Button from "../../UI/Button";
 const hotCoffee = () => {
   // hot coffee object
   const hotCoffee = [
@@ -48,13 +48,14 @@ const hotCoffee = () => {
       price: 300,
     },
   ];
+
   const hotCoffeeDisplay = hotCoffee.map((item) => {
     return (
       <div key={item.id} className={Classes.Card}>
         <img src={item.src} alt={item.title} />
         <span id={Classes.title}>{item.title}</span>
         <span id={Classes.price}>₱ {item.price}</span>
-        <button className={Classes.addItem}>ADD</button>
+        <Button item={item} />
       </div>
     );
   });

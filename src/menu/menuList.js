@@ -5,7 +5,6 @@ import HotCoffee from "./item/hotCoffee";
 import IcedCoffee from "./item/icedCoffee";
 import Frappe from "./item/frappe";
 import Cakes from "./item/cakes";
-import Cart from "../cart/Cart";
 const MenuList = () => {
   const [activeName, setIsActiveName] = useState("Hot Coffee");
   // menu button
@@ -50,8 +49,6 @@ const MenuList = () => {
 
   return (
     <div>
-      <Cart />
-
       <div className={Classes.menuListBody}>
         <div className={Classes.itemButton}>{itemTitle}</div>
         <div className={Classes.itemWrapper}>{imageDisplay}</div>

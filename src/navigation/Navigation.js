@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Cart from "./Cart";
 import Classes from "./Navigation.module.css";
 const Navigation = () => {
   const navigationLink = [
@@ -9,11 +10,11 @@ const Navigation = () => {
     },
     {
       title: "ABOUT",
-      path: "/",
+      path: "/menu/about",
     },
     {
       title: "MERCHANDISE",
-      path: "/",
+      path: "/menu/merchandiseList",
     },
   ];
   const navigationLinkMapped = navigationLink.map((link, index) => {
@@ -33,13 +34,7 @@ const Navigation = () => {
         />
       </Link>
       {navigationLinkMapped}
-      <Link to="">
-        <img
-          src={require("../image/cart.png")}
-          className={Classes.imgCart}
-          alt="Cart"
-        />
-      </Link>
+      <Cart />
     </div>
   );
 };
